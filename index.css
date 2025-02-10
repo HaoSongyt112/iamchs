@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {display: none;}
+
+.content {
+    text-align: center;
+    margin-top: 10%;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.content .profile {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+.content .main-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    user-select: none;
+}
+
+.fa {
+    width: 120px;
+    height: 20px;
+    padding-right: 15px;
+    margin-top: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    user-select: none;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  #quotes {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      user-select: none;
+  }
+
+  .quotes {
+      padding-top: 25px;
+  }
+
+  .footer p {
+      color: white;
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

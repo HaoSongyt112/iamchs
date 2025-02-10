@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="/image.png">
+        <title>Hao Song's Website</title>
+    </head>
+    <body>
+        <div class="content">
+            <img draggable="false" class="profile" src="331132568_5988140724578652_3630607485385876409_n.jpg">
+            <br>
+            <a class="main-text">Hao Song's Website</a>
+            <div class="quotes">
+                <a id="quotes"></a>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="https://youtube.com/@Info_Music"><i class="fa fa-youtube-play"></i></a>
+            <a href="https://www.facebook.com/haosong0021"><i class="fa fa-facebook-square"></i></a>
+            <a href="https://instagram.com/haosong150"><i class="fa fa-instagram"></i></a>
+        </div>
+    </body>
+    <script>
+        var texts = [
+          "'Impossible makes a person keeps going' <br> —— Hao Song",
+          "'We cannot solve problems with the kind of thinking we employed when we came up with them.' <br> —— Albert Einstein",
+          "'If you are working on something that you really care about, you don’t have to be pushed. The vision pulls you.' <br> — Steve Jobs",
+          "'It is often the small steps, not the giant leaps, that bring about the most lasting change.' <br> —— Queen Elizabeth II",
+          "'Attitude is the 'little' thing that makes a big difference.' <br> —— Winston Churchill"
+        ];
+
+        document.getElementById('quotes').innerHTML = texts[Math.floor(Math.random()*texts.length)];
+    </script>
+</html>
